@@ -13,7 +13,7 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-family: var(--main-font), sans-serif;
+  font-family: var(--main-font), fantasy;
   background-image: var(--bg-gradient);
   background-size: cover;
   color: var(--word-color);
@@ -47,6 +47,14 @@
 
 .header__heading-sm {
   font-size: var(--font-size-sm);
+}
+
+.button {
+  display: flex;
+  padding-inline-end: 25px;
+  padding-block-end: 25px;
+  align-items: center;
+  justify-content: end;
 }
 
 .content {
@@ -86,7 +94,7 @@
   padding: 24px 25px 25px 25px;
   font-family: var(--variable), sans-serif;
   font-size: 18px;
-  font-weight: var(--p-weight);
+  font-variation-settings: 'wght' var(--p-weight);
   line-height: 21px;
   border-block-start: 2px solid rgba(0, 0, 0, 1);
 }
@@ -125,46 +133,44 @@
 }
 
 .button__text {
-  display: flex;
-  padding-inline-end: 25px;
-  padding-block-end: 25px;
-  align-items: center;
-  justify-content: end;
+  display: block;
+  padding: 9.5px 29px;
+  transition: padding 0s ease-in-out 0.5s;
 }
 
-.button__text:has(.like-icon) {
+.button:has(.like-icon) {
   gap: 6px;
 }
 
-.image-sprint-3-2 {
+.filter-blur {
   filter: blur(10px);
 }
 
-.image-sprint-2-2 {
+.filter-invert {
   filter: invert(80%);
 }
 
-.image-sprint-2-1 {
+.filter-hue-rotate {
   filter: hue-rotate(30deg);
 }
 
-.image-sprint-1-1 {
+.filter-saturate {
   filter: saturate(25%);
 }
 
-.image-sprint-3-1 {
+.filter-sepia {
   filter: sepia(90%);
 }
 
-.image-sprint-4-1 {
+.filter-blur-hue-rotate-contrast {
   filter: blur(1px) hue-rotate(90deg) contrast(50%);
 }
 
-.image-sprint-1-2 {
+.filter-saturate__2 {
   filter: saturate(4);
 }
 
-div:has(.image-sprint-3-2) {
+figure:has(.filter-blur) {
   overflow: hidden;
 }
 
@@ -226,13 +232,17 @@ div:has(.image-sprint-3-2) {
   background-color: rgba(0, 0, 0, 1);
 }
 
-.button__text:has(.button__text__button__image) {
+.button:has(.button__text__button__image) {
   padding: 0px;
   justify-content: center;
 }
 
 dialog {
   padding: 0;
+}
+
+.button:has(.is-liked) .button__text {
+  padding: 9.5px 15px;
 }
 
 .dialog {
@@ -357,22 +367,13 @@ button:has(.like-icon) {
   animation: sparks 0.3s ease-in 0.3s 1 normal none;
 }
 
-.like {
-  display: block;
-  padding: 9.5px 29px;
+::backdrop {
+  background: rgba(0, 0, 0, 1);
+  opacity: 75%;
 }
 
-.unlike {
-  display: none;
-  padding: 9.5px 15px;
-}
-
-.button__text:has(.is-liked) .like {
-  display: none;
-}
-
-.button__text:has(.is-liked) .unlike {
-  display: block;
+.footer {
+  margin-block-end: 100px;
 }
 
 @media (width <= 375px) {

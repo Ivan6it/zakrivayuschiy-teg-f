@@ -1,0 +1,20 @@
+<svg width="21.5" height="21.000180959701538" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <g class="layer">
+    <title>Layer 1</title>
+    <rect id="rect" fill="white" height="1.62" transform="matrix(1 0 0 1 0 0)" width="16.32" x="0.5" y="0"/>
+    <rect id="rect" fill="white" height="1.62" width="11.52" x="4.3" y="6.46"/>
+    <rect id="rect" fill="white" height="19.82" width="1.62" x="0.5" y="1.18"/>
+    <rect id="rect" fill="white" height="1.62" transform="rotate(90 18.2693 0)" width="1.62" x="18.27"/>
+    <rect id="rect" fill="white" height="1.62" transform="rotate(90 19.8846 1.61523)" width="1.62" x="19.88" y="1.62"/>
+    <rect id="rect" fill="white" height="1.62" transform="rotate(90 15.8461 4.3696)" width="7.42" x="12.14" y="3.56"/>
+    <rect id="rect" fill="white" height="1.62" transform="rotate(90 12.6154 4.5696)" width="7.02" x="9.11" y="3.76"/>
+    <rect id="rect" fill="white" height="1.62" transform="matrix(1 0 0 1 0 0) matrix(0 0.999972 -1 0 9.1581 0.0812294)" width="6.92" x="1.08" y="3.81"/>
+    <rect id="rect" fill="white" height="1.62" transform="rotate(90 17.4616 15.6653)" width="8.72" x="13.1" y="14.86"/>
+    <rect id="rect" fill="white" height="12.42" transform="matrix(1 0 0 1 0 0) rotate(90 10.9154 12.1153)" width="1.62" x="10.11" y="5.91"/>
+    <rect id="rect" fill="white" height="1.62" transform="rotate(90 5.34619 11.3076)" width="1.62" x="5.35" y="11.31"/>
+    <rect id="rect" fill="white" height="16.22" transform="matrix(0 1 -1.15839 0 34.3368 10.5464)" width="1.62" x="8.84" y="12.08"/>
+    <rect id="rect" fill="white" height="1.62" transform="rotate(90 4.5385 16.5425)" width="8.92" x="0.08" y="15.73"/>
+    <rect id="rect" fill="white" height="16.72" transform="rotate(-180 20.6923 12.6423)" width="1.62" x="19.88" y="4.28"/>
+    <rect id="rect" fill="white" height="1.62" transform="rotate(-180 21.5 4.8457)" width="1.62" x="21.5" y="4.85"/>
+  </g>
+</svg>
