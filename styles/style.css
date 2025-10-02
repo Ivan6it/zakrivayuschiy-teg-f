@@ -349,7 +349,7 @@ button:has(.like-icon) {
   fill: rgba(255, 0, 0, 1);
 }
 
-.like-icon.is-liked  {
+.like-icon.is-liked {
   animation: big-heart 0.3s ease-in 0.1s 1 normal none;
 }
 
