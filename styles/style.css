@@ -59,6 +59,7 @@
 
 .content {
   margin-block-start: 100px;
+  margin-block-end: 100px;
   inline-size: var(--is-calc);
   margin-inline-start: var(--margin);
   margin-inline-end: var(--margin);
@@ -370,10 +371,6 @@ button:has(.like-icon) {
 ::backdrop {
   background: rgba(0, 0, 0, 1);
   opacity: 75%;
-}
-
-.footer {
-  margin-block-end: 100px;
 }
 
 @media (width <= 375px) {
